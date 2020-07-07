@@ -3,4 +3,6 @@ from . import views
 
 urlpatterns = [
     path('', views.home, name='blog-home'),  # Matching url path to url function home()
+
+    path('about/', views.about, name='blog-about')
 ]

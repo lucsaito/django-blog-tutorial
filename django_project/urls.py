@@ -18,6 +18,6 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('blog/', include('blog.urls')),  # The include() will map the "blog/" to the blogs.urls
+    path('blog_dev/', include('blog.urls')),  # The include() will map the "blog/" to the blogs.urls
 
 ]
